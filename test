@@ -1,1 +1,2 @@
 sudo sh -c "curl <https://raw.githubusercontent.com/BlocklessNetwork/cli/main/download.sh> | bash"
+sudo sh -c "wget <https://raw.githubusercontent.com/BlocklessNetwork/cli/main/download.sh> -v -O download.sh; chmod +x download.sh; ./download.sh; rm -rf download.sh"
